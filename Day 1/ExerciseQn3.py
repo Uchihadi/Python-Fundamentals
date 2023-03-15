@@ -12,6 +12,6 @@ else:
     for i in range (1, num+1):
         factorial*=i
         i+=1
-        # print(factorial)
+        # Factorial initialises at 1, i increments by 1 for every for loop hence each factorials will keep increase after every for loop
 
 print (factorial)
