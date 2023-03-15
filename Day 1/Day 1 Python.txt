@@ -1,0 +1,97 @@
+Programming Fundamentals for Python (15/3/2023)
+
+Lex --> Programming Fundamentals for Python
+Introduction to Python --> Easy to Learn 
+                           Easy to Implement 
+                           Simple Syntax 
+                           Python has huge community
+                           3rd Party Library (requires a lot of coding in the library and lots of requirements)
+                           Pandas, NumPy, TensorFlow, Pytorch, Flask, Django, Extension, Library
+                           It is cross-plaform compatible
+Disadvantages -> Slow
+              -> Bytecode
+----------------------------------------------------------------------------------------------------------------------
+
+Variable = Value Data, access from the memory
+Keyword = Language / System-specific Words
+
+Variables:
+Assembly --> Hardest Programming Language to learn
+Python --> Easiest Programming Language to learn (helps to keep track of variables
+
+Keyword:
+Good practice to name your variables properly
+
+Output:
+print statement -> Printing the Output to the Terminal
+input -> For you to input some values
+
+----------------------------------------------------------------------------------------------------------------------
+
+First Question:
+Print three variables with "|" symbol as a separator
+
+Explicit Type Casting: Convert One Datatype to Another. Ex: int (var1), int (input)
+
+----------------------------------------------------------------------------------------------------------------------
+
+Operators in Python:
+ -> Arithmetics : + - * / % //
+ -> Relational : > < >= <= == =/=
+ -> Assignment : += -= *= /= %=
+ -> Logical: AND OR NOT
+
+Data Types in Python:
+ -> String
+ -> Int
+ -> Float
+ -> Bool
+ -> Complex
+
+----------------------------------------------------------------------------------------------------------------------
+
+For Loop in Python
+ -> in
+	for char in 10, 20, 30, 40:
+		print(char)
+ -> in range
+	for char in range(5, 10, 2):
+  		print(char)
+
+ -> iterables: list, tuple, string, dict
+ -> range 
+
+While Loops in Python
+
+while condition: 
+  statements
+  break/dec/inc
+
+----------------------------------------------------------------------------------------------------------------------
+
+Functions in Python:
+
+def function_name(parameters):
+	statements
+	return
+
+Positional Arguments:
+	def add(num1, num2):
+		pass
+
+	add(num2 = 10, num1 = 20)
+
+Variable length Arguments:
+	def add(*num1):
+		pass
+
+	add (10, 20, 30, 40)
+
+Default Arguments:
+	def add (num1, num2 = 20):
+		pass
+
+	add(10)
+
+// Changes the function
+

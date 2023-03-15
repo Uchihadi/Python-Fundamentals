@@ -1,0 +1,112 @@
+Course Link: https://lex.infosysapps.com/web/en/app/toc/lex_auth_0125409616243425281061/overview
+
+Introduction to Python:
+    -> Easy to learn
+    -> Easy to implement
+    -> Simple syntax
+    -> Python has a huge community
+    -> Many third party library
+    -> It's everywhere (Pandas,NumPy,Tensorflow,pytorch,flask,django,tkinter)
+    -> It's cross-platform compatible
+
+Disdvantges of Python:
+    -> It's slow
+
+
+-----------------------------------------------------------------------------------------------------
+
+Variable, Keyword
+
+------------------------------------------------------------------------------------------
+
+print() -> Used to pront output to the terminal
+input() -> Used to get input from the user
+
+Explicit Type Casting: Convert one datatype to another. Ex: int(var1), int(input)
+
+-----------------------------------------------------------------------------------------------------
+
+Operators in Python:
+    -> Arithmeitc: +,-,*,/,%,//
+    -> Relational: >,<,>=,<=,==,!=
+    -> Assignment: +=,-=,*=,/=,%=
+    -> Logical: and, or, not
+
+------------------------------------------------------------------------------------------------------
+
+Datatypes in Python:
+    -> String
+    -> Int
+    -> Float
+    -> Bool
+    -> Complex
+
+-----------------------------------------------------------------------------------------------
+for loop in Python
+    -> iterbales: list,tuple,string,dict
+
+    -> in
+        for char in 10,20,30,40:
+            print(char)
+
+    -> in range
+        for char in range(5,10,2):
+            print(char)
+
+
+while loop in Python
+
+    while condition:
+        statements
+        inc/dec/break
+
+
+
+--------------------------------------------------------------------------------------------------c
+
+Function:
+
+def function_name(parameters):
+    statements
+    return
+
+Positional Arguments:
+    def add(num1,num2):
+        pass
+
+    add(10,20)
+
+
+Keyword Arguments:
+    def add(num1,num2):
+        pass
+
+    add(num2=10,num1=20)
+
+Variable length Arguments:
+    #Here num1 is of type tuple
+    def add(*num1):
+        pass
+
+    add(10,20,30,40)
+
+Default Arguments:
+    def add(num1,num2=20):
+        pass
+
+    add(10)
+
+
+
+-------------------------------------------------------------------------------------------
+Q1: Print three variables with "|" symbol as seperator
+
+Q2: Write a program that checks if a number is even or odd. Print "even" if the number is even and "odd" if the number is odd.
+
+Q3: Write a program that calculates the factorial of a number.
+
+Q4: Write a program that prints all the prime numbers between 1 and a given number.
+
+Q5: Write a program that prompts the user to enter a string and then counts the number of vowels and consonants in the string.
+
+Q6: Write a program that prompts the user to enter a list of numbers and then prints the sum of all the even numbers in the list.
