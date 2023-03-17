@@ -7,11 +7,12 @@ def solve(heads,legs):
     
     # Start writing your code here
     #Populate the variables: chicken_count and rabbit_count
-    if heads > legs or legs % 2 != 0 or heads == 1:
-        print (error_msg)
+    if legs > heads and legs % 2 == 0:
+        rabbit_count = (legs - 2*heads) // 2
+        chicken_count = heads - rabbit_count
+        print(chicken_count,rabbit_count)
     else:
-        rabbit_count = int((legs - 2*heads) / 2)
-        chicken_count = int(heads - rabbit_count)
+        print(error_msg)
         
         return chicken_count, rabbit_count
 
