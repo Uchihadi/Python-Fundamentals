@@ -19,5 +19,5 @@ def find_max(num1, num2):
     return max_num
 
 #Provide different values for num1 and num2 and test your program.
-max_num=find_max(15,12)
+max_num=find_max(9,12)
 print(max_num)

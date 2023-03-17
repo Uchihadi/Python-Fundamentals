@@ -22,4 +22,4 @@ def solve(heads,legs):
     #print(error_msg)
 
 #Provide different values for heads and legs and test your program
-solve(38,131)
+solve(35,94)
