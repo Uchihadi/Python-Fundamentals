@@ -9,8 +9,6 @@ def calculate_loan(account_number,salary,account_balance,loan_type,loan_amount_e
     acc = str(account_number)
     if len(acc) != 4:
         print ("Invalid account number")
-    elif num > 999 and num < 2000:
-        print ("Insufficient account balance")
     elif account_balance <= 100000:
         print ("Insufficient account balance")
     else:
