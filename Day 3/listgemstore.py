@@ -2,20 +2,19 @@
 
 def calculate_bill_amount(gems_list, price_list, reqd_gems,reqd_quantity):
     bill_amount = 0
+    counter = 0
     #Write your logic here
     
     for gem in reqd_gems:
-        if gem in gems_list:
-            i = gems_list.index(gem)
-            j = reqd_gems.index(gem)
-            
-            bill_amount = bill_amount + (price_list[i] * reqd_quantity[j])
-        else:
+        try:
+            position = gems_list.index(gem)
+            bill_amount = bill_amount + (price_list[position] * reqd_quantity[counter])
+            counter += 1
+        except:
             return -1
-    
-    
-    if bill_amount > 30000:
-        bill_amount = bill_amount + (bill_amount*0.05)
+        
+        if bill_amount > 30000:
+            return bill_amount - 0.05*bill_amount
     return bill_amount
 
 #List of gems available in the store
