@@ -2,9 +2,11 @@
 
 def translate(bilingual_dict,english_words_list):
     #Write your logic here
+    swedish_words_list = [] # Initialise the empty list
     
-    print (bilingual_dict["merry"])
-
+    for i in english_words_list: #The i is the key value; below it appends the value based on key
+        swedish_words_list.append(bilingual_dict[i]) #Appends value based on the key
+    
     return swedish_words_list
 
 
