@@ -2,6 +2,7 @@
 
 def calculate_bill_amount(gems_list, price_list, reqd_gems,reqd_quantity):
     bill_amount = 0
+    counter = 0
     #Write your logic here
     
     for gem in reqd_gems:
