@@ -13,3 +13,4 @@ check_loss(game_history, game_points, total)
 game_history = [5,2,2]
 check_loss(game_history, game_points, total)
 print(total,game_points)
+

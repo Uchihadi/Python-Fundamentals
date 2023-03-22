@@ -10,7 +10,6 @@ def factorial(number):
         return factorial_num
 #remove pass and write your logic to find and return the factorial of given number
 
-
 def find_strong_numbers(num_list):
     strong_num = []
     for num in num_list:
