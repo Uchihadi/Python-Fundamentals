@@ -2,7 +2,7 @@
 
 #This verification is based on string match.
 
-def sum_of_numbers(list_of_num,filter_func):
+def sum_of_numbers(list_of_num,filter_func=None):
     sum_func = 0
     
     if filter_func == even:
@@ -17,6 +17,7 @@ def sum_of_numbers(list_of_num,filter_func):
         lst3 = list_of_num
         for i in lst3:
             sum_func += i
+    return sum_func
 
 def even(data):
     even_list = []
