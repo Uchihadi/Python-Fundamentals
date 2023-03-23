@@ -12,11 +12,11 @@ def find_average(mark_list):
 	except NameError:
      	 print("Name error Occured")
        
-	except ValueError:
-     	 print("Value error Occured")
+	# except ValueError:
+    #  	 print("Value error Occured")
        
-	except TypeError:
-		print ("Type Error Occurred")
+	# except TypeError:
+	# 	print ("Type Error Occurred")
      
 
 m_list=[1,2,3,4]

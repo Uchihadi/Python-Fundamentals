@@ -14,7 +14,12 @@ def sms_encoding(data):
                         if letter != 'i':
                             if letter != 'o':
                                 if letter != 'u':
-                                    encoded += str(letter)
+                                    if letter != 'A':
+                                        if letter != 'E':
+                                            if letter != 'I':
+                                                if letter != 'O':
+                                                    if letter != 'U':
+                                                        encoded += str(letter)
         encoded += " "
         
     # words = data.split()
