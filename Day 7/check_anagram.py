@@ -21,6 +21,9 @@ def check_anagram(data1,data2):
 
     print (d1)
     print (d2)
+
+    if d1 != d2:
+        return False
     
     lst = []
     for i in data1:
