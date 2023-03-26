@@ -14,8 +14,10 @@ def check_anagram(data1,data2):
 
     for i in range(0, len(first)):
         d1.append(first[i])
+        d1 = sorted(d1)
     for i in range(0, len(second)):
         d2.append(second[i])
+        d2 = sorted(d2)
 
     print (d1)
     print (d2)
