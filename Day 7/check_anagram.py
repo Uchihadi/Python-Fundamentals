@@ -25,12 +25,21 @@ def check_anagram(data1,data2):
     if d1 != d2:
         return False
     
-    lst = []
-    for i in data1:
-        for j in data2:
-            if len(i) == len(j):
-                if i == j:
-                    return True
+    count = 0
+    if (len(d1) == len(d2)):
+        for i in d1:
+            for j in d2:
+                if(i == j):
+                    a = d1.index(i)
+                    b = d2.index(j)
+                    if(a == b):
+                        return False
+                    else:
+                        count += 1
+    if(len(second) == len(first)):
+        return True
+    else:
+        return False
     #start writing your code here
 
 print(check_anagram("about","table"))
