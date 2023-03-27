@@ -7,31 +7,31 @@
 
 def check_anagram(data1,data2):
     first = data1.lower()
-    second = data2.lower()
+    second = data2.lower() #Lowering all the characters within both data sets
     
-    d1 = []
+    d1 = [] #Initialise Empty List for both of data sets
     d2 = []
 
     for i in range(0, len(first)):
-        d1.append(first[i])
-        d1 = sorted(d1)
-    for i in range(0, len(second)):
+        d1.append(first[i]) #Appending each character in a word into first list
+        sorted_data1 = sorted(d1)
+    for i in range(0, len(second)): #Appending each character in a word into second list
         d2.append(second[i])
-        d2 = sorted(d2)
+        sorted_data2 = sorted(d2)
 
-    print (d1)
-    print (d2)
+    print (sorted_data1)
+    print (sorted_data2)
 
-    if d1 != d2:
+    if sorted_data1 != sorted_data2:
         return False
     
     count = 0
-    if (len(d1) == len(d2)):
+    if (len(d1) == len(d2)): # First condition: If length for both data sets are same
         for i in d1:
             for j in d2:
                 if(i == j):
-                    a = d1.index(i)
-                    b = d2.index(j)
+                    a = d1.index(i) #Declare a variable as an index for each of characters in data 1
+                    b = d2.index(j) #Declare a variable as an index for each of characters in data 2
                     if(a == b):
                         return False
                     else:
@@ -42,4 +42,4 @@ def check_anagram(data1,data2):
         return False
     #start writing your code here
 
-print(check_anagram("about","table"))
+print(check_anagram("Badcredit", "Debitcard"))
