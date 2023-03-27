@@ -18,8 +18,7 @@ def find_passengers_flight(airline_name="AI"):
 
 def find_passengers_destination(destination):
     #Write the logic to find and return the number of passengers traveling to the specified destination
-    pass
-    
+    pass    
     #Remove pass and write your logic here
 
 def find_passengers_per_flight():
