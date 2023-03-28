@@ -1,7 +1,15 @@
 #lex_auth_01269446157664256093
 
 def check_prime(number):
-    pass #remove pass and write your logic here. if the number is prime return true, else return false
+    if number > 1:
+        for i in range (2, int(number/2) + 1):
+            if (number % i == 0):
+                return False
+            else:
+                return True
+    else:
+        return False
+    #remove pass and write your logic here. if the number is prime return true, else return false
 
 def rotations(num):
     pass #remove pass and write your logic here. It should return the list of different combinations of digits of the given number.
